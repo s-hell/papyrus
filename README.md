@@ -1,3 +1,7 @@
+## Modifications
+
+* removed archive and linsk to archives
+
 ## Papyrus
 
 Papyrus is a fast and responsive theme built for the [Pelican][] site generator. It is styled using [Tailwind CSS][]. It supports dark mode as well as site search via a plugin.
@@ -71,8 +75,8 @@ EXTRA_PATH_METADATA = {
     'images/favicon.ico': {'path': 'favicon.ico'},
     }
 DISPLAY_PAGES_ON_MENU = True
-DIRECT_TEMPLATES = (('index', 'search', 'tags', 'categories', 'archives',))
-PAGINATED_TEMPLATES = {'index': None, 'tag': None, 'category': None, 'author': None, 'archives': 24,}
+DIRECT_TEMPLATES = (('index', 'search', 'tags', 'categories', ))
+PAGINATED_TEMPLATES = {'index': None, 'tag': None, 'category': None, 'author': None, }
 
 # Site search plugin
 SEARCH_MODE = "output"
