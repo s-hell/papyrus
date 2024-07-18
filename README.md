@@ -1,6 +1,6 @@
 ## Modifications
 
-* removed archive and linsk to archives
+* removed archive and links to archives
 
 ## Papyrus
 
